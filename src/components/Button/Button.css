@@ -1,0 +1,17 @@
+.button {
+  background-color: rgb(255,255,255);
+  color: rgba(0, 0, 0, 0.788);
+  width: auto;
+  border: none;
+  border-radius: 6px;
+  white-space: nowrap;
+  height: 80%;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button:disabled {
+    background-color: rgb(115,117,115);
+    color: rgb(211,212,211);
+    cursor: unset;
+}

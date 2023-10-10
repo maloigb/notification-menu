@@ -1,0 +1,35 @@
+.container-notification_item {
+    background-color: rgb(247,246,247);
+    border-radius: 10px;
+    border-bottom-right-radius : 0%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container-notification_item h5 {
+    color: rgb(169,170,169);
+}
+
+.container-notification_item p {
+    color: rgb(98,98,98);
+}
+
+.container-notification {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-notification_date {
+    align-self: flex-end;
+    color: #fff;
+}
+
+.container-notification_date {
+    color: rgb(180,181,181);
+}
+
+@media (min-width: 1200px) {
+    .container-notification {
+        width: 48%;
+    }
+}
