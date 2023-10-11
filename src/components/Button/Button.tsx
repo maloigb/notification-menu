@@ -1,12 +1,11 @@
 import './Button.css'
 
-const Button = ({disabled, children, onClick} : React.HTMLProps<HTMLButtonElement> ) => {
+const Button = ({ children, ...rest} : React.ButtonHTMLAttributes<HTMLButtonElement> ) => {
   
     return (
             <button
             className="button" 
-            disabled={disabled}
-            onClick={onClick}
+            {...rest}
           >
             {children}
           </button>
